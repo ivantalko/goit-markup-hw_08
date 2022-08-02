@@ -1,0 +1,58 @@
+.btn {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-text-color);
+    cursor: pointer;
+    font-family: inherit;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
+    min-width: 200px;
+    border: 1px solid transparent;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: var(--hero-button-background-color);
+    }
+
+}
+
+
+.primary-button {
+    color: var(--title-text-color);
+    background-color: var(--secondary-background-color);
+    cursor: pointer;
+    font-family: inherit;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+
+    padding: 6px 22px;
+    border-radius: 4px;
+    border-color: transparent;
+    box-shadow: none;
+
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--secondary-text-color);
+        background-color: var(--accent-text-color);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
+
+}
+
