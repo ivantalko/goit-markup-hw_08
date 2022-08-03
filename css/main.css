@@ -1087,10 +1087,9 @@ span.logo-white {
 }
 @media (min-width: 1200px) {
   .social {
-    text-align: start;
     padding-top: 12px;
     margin-right: 93px;
-    justify-content: left;
+    align-items: flex-start;
     margin-top: 0;
   }
 }
