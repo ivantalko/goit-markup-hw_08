@@ -7,7 +7,6 @@
   padding-top: 118px;
   padding-bottom: 118px;
 
-  height: 600px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -40,6 +39,7 @@
   }
 
   @media (min-width: 1200px) {
+    height: 600px;
     max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -75,6 +75,7 @@
   max-width: 360px;
 
   margin-bottom: 30px;
+  margin-top: 0;
 
   font-size: 26px;
   line-height: 1.62;

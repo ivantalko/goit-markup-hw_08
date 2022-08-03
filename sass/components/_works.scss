@@ -18,6 +18,12 @@
   padding: 20px 24px;
 }
 
+.section-works .the-and {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .section-works-item {
   @media (min-width: 480px) {
     display: flex;

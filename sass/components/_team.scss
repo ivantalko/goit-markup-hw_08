@@ -1,134 +1,124 @@
 .section-team {
-    background-color: var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 .section-team .section {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .section-team .section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 
-    @media(max-width: 1199px){
-        margin-bottom: 30px;
-        font-size: 28px;
-        line-height: 1.18;
-    }
+  @media (max-width: 1199px) {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.18;
+  }
 }
 
 .section-team .items {
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .section-team-items {
-    @media (min-width: 768px) {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 
 .team-social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .team-social-checklist {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    /* justify-content: center;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  /* justify-content: center;
     align-items: center; */
-
 }
-
 
 .team-social-items {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    fill: var(--primary-icon-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  fill: var(--primary-icon-color);
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover .link-social,
-    &:focus {
-        fill: var(--secondary-text-color);
-    }
+  &:hover .link-social,
+  &:focus {
+    fill: var(--secondary-text-color);
+  }
 
-    &:hover,
-    &:focus {
-        background-color: var(--accent-text-color);
-    }
-
-
+  &:hover,
+  &:focus {
+    background-color: var(--accent-text-color);
+  }
 }
-
-
 
 .team-social-items .link-social {
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 /*section-peopl*/
 .section-peopl {
-    background-color: var(--primary-background-color);
-    // width: 270px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+  background-color: var(--primary-background-color);
+  // width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 
+  flex-direction: column;
+  display: flex;
 
-    flex-direction: column;
-    display: flex;
+  @media (min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+    margin-bottom: 0;
+  }
 
-
-    margin-bottom: 30px;
-
-        
-    @media (min-width: 768px) {
-        width: calc((100% - 30px) / 2);
-        margin-bottom: 0;
-    }
-        
-    @media (min-width: 1200px) {
-        width: calc((100% - 90px) / 4);
-        margin-bottom: 0;
-    }
+  @media (min-width: 1200px) {
+    width: calc((100% - 90px) / 4);
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .section-peopl + .section-peopl {
+    margin-top: 30px;
+  }
 }
 
-
 .section-people-checklist {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .section-peopl .section-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }

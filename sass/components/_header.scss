@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: space-between;
     min-height: 80px;
+    padding: 0;
   }
 }
 .mobil__container {
@@ -142,6 +143,8 @@ span.logo__black {
   @media (min-width: 768px) {
     font-size: 14px;
     line-height: 1.14;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   color: var(--title-text-color);
@@ -274,6 +277,10 @@ span.logo__black {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 
 .nav-list2__mobile {
@@ -284,7 +291,7 @@ span.logo__black {
   fill: var(--primary-text-color);
 
   @media (max-width: 767px) {
-    fill: var(--accent-text-color);
+    display: none;
   }
 
   transition-property: fill;

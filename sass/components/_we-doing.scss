@@ -1,51 +1,49 @@
-.we-doing{
-    @media(max-width: 1199px){
-        display: none;
-    }
+.we-doing {
+  padding-top: 0;
+  @media (max-width: 1199px) {
+    display: none;
+  }
 }
 
-
 .we-doing .section-title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 
-    margin-top: 0;
-    margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .we-doing-items {
-    display: flex;
+  display: flex;
+  gap: 30px;
 }
 
-.we-doing-checklist+.we-doing-checklist {
-    margin-left: 30px;
-}
+// .we-doing-checklist+.we-doing-checklist {
+//     margin-left: 30px;
+// }
 
 .we-doing-checklist {
-    position: relative;
+  position: relative;
 }
 
 .we-doing-title {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    margin: 0 0;
-    padding-top: 27px;
-    padding-bottom: 27px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  margin: 0 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
 
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-
-    color: var(--secondary-text-color);
-    background-color: var(--fon-color);
-
-
+  color: var(--secondary-text-color);
+  background-color: var(--fon-color);
 }
